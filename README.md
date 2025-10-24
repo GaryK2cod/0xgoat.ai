@@ -34,7 +34,7 @@ GOAT is an advanced AI-driven cryptocurrency trading platform that leverages mul
 - Node.js 18+ and npm
 - Next.js (latest version)
 - API keys for AI model providers (Claude, OpenAI, etc.)
-- Binance API credentials
+- Aster API credentials
 - HTTPS-enabled domain
 
 ### Installation Steps
@@ -71,8 +71,8 @@ return [
     'openai_api_key' => 'sk-...',
     'anthropic_version' => '2023-06-01',
     // Trading Configuration
-    'binance_api_key' => 'your_binance_key',
-    'binance_api_secret' => 'your_binance_secret',
+    'Aster_api_key' => 'your_Aster_key',
+    'Aster_api_secret' => 'your_Aster_secret',
     'max_position_exposure' => 0.65, // 65%
     'update_interval' => 30, // seconds
 ];
